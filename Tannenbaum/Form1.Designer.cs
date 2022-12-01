@@ -59,7 +59,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxOutput.BackColor = System.Drawing.Color.Lime;
             this.textBoxOutput.Font = new System.Drawing.Font("Courier New", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxOutput.Location = new System.Drawing.Point(6, 124);
+            this.textBoxOutput.Location = new System.Drawing.Point(14, 116);
             this.textBoxOutput.Margin = new System.Windows.Forms.Padding(5);
             this.textBoxOutput.Multiline = true;
             this.textBoxOutput.Name = "textBoxOutput";
