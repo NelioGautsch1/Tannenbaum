@@ -8,13 +8,11 @@ namespace Tannenbaum_mit_Klasse
 {
     public class Tanne
     {
-        #region fields 
+ 
 
         string _resultat = string.Empty;
 
-        #endregion 
 
-        #region properties
         public int KronenHoehe
         {
             get;
@@ -38,10 +36,6 @@ namespace Tannenbaum_mit_Klasse
             }
         }
 
-        #endregion 
-
-        #region constructors
-
         public Tanne()
         {
 
@@ -53,9 +47,8 @@ namespace Tannenbaum_mit_Klasse
             this.StammHoehe = stammHoehe;
         }
 
-        #endregion 
         
-        #region methods
+
         public void Zeichne()
         {
             ZeichneKrone();
@@ -85,7 +78,5 @@ namespace Tannenbaum_mit_Klasse
             for (int i = 1; i <= StammHoehe; ++i)
                 ZeichneZeile(KronenHoehe - StammBreite / 2 - 1, StammBreite);
         }
-
-        #endregion 
     }
 }
